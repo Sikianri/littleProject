@@ -6,13 +6,13 @@ Pico Fermi Bagels 猜数字游戏
 import random
 
 NUM_DIGITS = 3  # 可以试着把3设置为1或者10
-MAX_GUESSES = 10  # 请试着将10设置为1 或者100
+MAX_GUESSES = 100  # 请试着将10设置为1 或者100
 
 
 def main():
     print('''Bagels, 一个逻辑推理游戏
 
-我正在想一个没有重复数字的数字{}
+我正在想一个没有重复的{}位数字
 请试着猜出它。这是一些规则：
 当我说： 意味着：
 Pico    一个正确的数字但出现在错误的位置
